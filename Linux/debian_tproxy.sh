@@ -8,9 +8,9 @@
 #################################################
 
 # 配置参数
-BACKEND_URL="http://192.168.10.12:5000"                       # 后端服务器地址
+BACKEND_URL="http://192.168.50.10:5000"                       # 后端服务器地址
 SUBSCRIPTION_URL=""   # 订阅地址 Clash.Meta(mihomo)
-TEMPLATE_URL="https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/master/config/singbox/config_tproxy.json"  # 配置模板（确保使用tproxy入站）
+TEMPLATE_URL="https://raw.githubusercontent.com/qljsyph/rule/refs/heads/main/op-singbox/sing-box-beta/tproxy-dev-3.json"  # 配置模板（确保使用tproxy入站）
 TPROXY_PORT=7895                                              # TProxy 端口
 PROXY_FWMARK=1                                                # 防火墙标记
 PROXY_ROUTE_TABLE=100                                         # 路由表编号
